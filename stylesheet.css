@@ -1,0 +1,146 @@
+body {
+    font-family: 'Fraunces', serif;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button{
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border: 2px solid hsl(158, 36%, 37%);
+    font-family:'Montserrat';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: hsl(158, 36%, 18%);
+    border: 2px solid hsl(158, 36%, 18%);
+    cursor: pointer;
+    cursor: hand;
+}
+
+#icon {
+    margin-right: 10px;
+}
+
+.PerfumeImage {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.PerfumeImagePhone {
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    p{
+        margin: 0px;
+    }
+
+    .container{
+        width: 320px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .PerfumeImage {
+        display: none;
+    }
+
+    .PerfumeImagePhone{
+        display: inline-block;
+        height: 63%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .button{
+        color: hsl(0, 0%, 100%);
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: hsl(158, 36%, 37%);
+        border-radius: 10px;
+        border: 2px solid hsl(158, 36%, 37%);
+        font-family:'Montserrat';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-bottom: 6px; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
